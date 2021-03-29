@@ -1,0 +1,28 @@
+#nav_bar ul{
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+}
+#nav_bar ul li{
+	margin-bottom: .5em;
+	border: 2px solid blue;
+	float: left;
+}
+#nav_bar ul li a{
+	text-align: center;
+	display: block;
+	width: 175px;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: blue;
+	font-weight: bold;
+	color: white;
+	border: 2px solid white;
+}
+
+#nav_bar ul li a.current{
+	color: yellow;
+}
+#nav_bar ul li a.lastItem{
+	border-right: none;
+}
