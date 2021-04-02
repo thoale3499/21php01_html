@@ -4,6 +4,10 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
+.sao:after{
+	content: "*";
+	color: red;
+}
 .container{
 	width: 350px;
 	margin-left: 250px;
