@@ -1,0 +1,52 @@
+body{
+	width: 600px;
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 350px;
+}
+body > div{
+    margin: auto;
+}
+
+}
+h2{
+    text-align: center;
+    color: blue;
+    margin-left: 30px;
+}
+p{
+    min-width: 150px;
+    font-weight: bold;
+}
+input{
+    margin-right: 5px;
+}
+.Body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:5px;
+    padding: 10px;
+    border: 3px dashed black;
+    height: 1000px;
+    background-color: #0080FF;
+    color: white;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+}
+.Student__name--flex{
+    display: flex;
+    
+}
+.button{
+	margin-left: 200px;
+	margin-top: 30px;
+}

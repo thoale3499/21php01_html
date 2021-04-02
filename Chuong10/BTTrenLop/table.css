@@ -1,0 +1,14 @@
+table{
+	width: 800px;
+	border-collapse: collapse; /*bỏ trùng lặp border*/
+}
+table, tr, th, td{
+	border: 1px solid grey;
+}
+thead, tfoot{
+	background-color: pink;
+}
+td:nth-child(2){
+	color: red; /*cột thứ 2 màu xanh, even: chẵn, old: lẻ*/;
+}
+

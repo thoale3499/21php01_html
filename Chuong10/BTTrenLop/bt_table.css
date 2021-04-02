@@ -1,0 +1,19 @@
+table{
+	width: 1500px;
+	border-collapse: collapse;
+}
+table, tr, th, td{
+	border: 1px solid grey;
+}
+.mau{
+	color: red;
+}
+.mau1{
+	background-color: yellow;
+}
+.mau2{
+	color: blue;
+}
+.table{
+	overflow-x: scroll;
+}
