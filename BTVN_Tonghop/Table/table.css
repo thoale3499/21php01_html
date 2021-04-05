@@ -1,0 +1,14 @@
+table{
+	width: 1000px;
+	border-collapse: collapse;
+}
+table, tr, th{
+	border: 1px solid grey;
+	font-weight: normal;
+}
+th{
+	height: 50px;
+}
+.bold{
+	font-weight: bold;
+}

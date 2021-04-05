@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<p class="bold">Quản lý hàng hóa/ </p>
+			<button class="bt">
+				<p>Quay lại</p>
+				<img src="back.png" alt="icon1" width="20px" height="20px">
+			</button>
+			<button class="bt1">
+				<p>Lưu & Thêm mới</p>
+				<img src="save1.png" alt="icon2" width="15px" height="15px">
+			</button>
+		</div>
+
+		<div class="body">
+			<div class="head">
+				<p>Thông tin cơ bản</p>
+			</div>
+			<div class="body1">
+                <p>Loại sản phẩm</p>
+                <select >
+                    <option>Dịch vụ</option>
+                    <option>Thương mại</option>
+                    <option>Điện tử</option>
+                </select>
+            </div>
+            <div class="input">
+                        <p>Mã Dịch vụ (SKU)</p>
+                        <input type="text" name="mã dịch vụ" placeholder="Mã hàng hóa tự động">
+                        <i class="fa fa-info-circle"></i>
+            </div>
+            <div class="input1">
+            	<p>Mã vạch</p>
+            	<input type="text" name="Mã vạch" placeholder="Mã vạch sản phẩm">
+            	<i class="fa fa-info-circle"></i>
+            </div>
+            <div class="input2">
+                        <p>Tên dịch vụ</p>
+                        <input type="text" name="tên dịch vụ">
+            </div>
+            <div class="input3">
+                <p>Nhóm dịch vụ</p>
+                <input type="text" name="nhóm dịch vụ" placeholder="Chọn hoặc nhập tên nhóm hàng hóa">
+                <i class="fa fa-sort-desc"></i>
+                <div class="plus">
+                	<i class="fa fa-plus"></i>
+                </div>
+            </div> 
+            <div class="input4">
+                <p class="sao">Giá bán</p>
+                <input type="text" name="giá bán">
+                
+            </div> 
+            <div class="donvi">
+                	<p>đ</p>
+            </div>
+            <div class="check">
+            	<p>Quản lý theo Serial/IMEI</p>
+            	<input class="cbox" type="checkbox" id="Serial" name="Serial" value="True">
+            </div>    
+		</div>
+		<div class="footer">
+			<div class="foot">
+				<p>Ảnh hàng hóa</p>
+			</div>
+			<div>
+				<button  class="add"><i class="fa fa-image"></i> Thêm ảnh</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

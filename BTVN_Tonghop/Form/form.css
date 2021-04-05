@@ -1,0 +1,274 @@
+.header{
+	border-bottom: 2px solid #D8D8D8;
+	background-color: #F2F2F2 ;
+	height: 40px;
+	margin-top: -10px;
+	width: 100%;
+}
+.header p{
+	float: left;
+}
+.bt{
+	width: 85px;
+	margin-top: 5px;
+	background-color: white;
+	border: 1px solid #D8D8D8 ;
+	float: left;
+	margin-left: 800px;
+	height: 30px;
+}
+.bt p{
+	width: 80px;
+	height: 0px;
+	line-height: 5px;
+	font-size: 12px;
+	padding-left: 7px;
+}
+.bt img{
+	border-right: 1px solid #D8D8D8;
+	float: left;
+	margin-top: -20px;
+	padding-bottom: 5px;
+}
+.bold{
+	font-weight: bold;
+	margin-left: 10px;
+}
+.bold:after{
+	content: " Thêm mới hàng hóa";
+	color: #848484;
+}
+.bt1{
+	width: 145px;
+	margin-top: -30px;
+	background-color: #8258FA;
+	border: 1px solid #8258FA ;
+	float: left;
+	margin-left: 900px;
+	height: 30px;
+}
+.bt1 p{
+	width: 120px;
+	height: 0px;
+	line-height: 5px;
+	font-size: 12px;
+	padding-left: 20px;
+	font-weight: bold;
+	color: white;
+}
+.bt1 img{
+	border-right: 1px solid #642EFE;
+	float: left;
+	margin-top: -20px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	background-color: #642EFE;
+}
+.body{
+	width: 1280px;
+	height: 380px;
+	margin-left: 30px;
+	border: 2px solid #D8D8D8;
+	margin-top: 20px;
+}
+.head{
+	background-color: #F2F2F2 ;
+	height: 35px;
+	width: 100%;
+	margin-top: -17px;
+	line-height: 35px;
+	font-weight: bold;
+	border-bottom: 1px solid #D8D8D8;
+}
+.head p{
+	margin-left: 30px;
+}
+.body1 p{
+	font-weight: bold;
+	float: left;
+	margin-left: 200px;
+	margin-top: 22px;
+}
+.body1 select{
+	margin-top: 15px;
+	margin-left: 30px;
+	padding: 6px 10px;
+    width: 200px;
+    border: 1px solid #D8D8D8;
+    outline: none;
+}
+.body1 select option{
+	font-weight: bold;
+}
+.input p{
+	font-weight: bold;
+	float: left;
+	margin-left: -126px;
+	margin-top: 22px;
+}
+.input input{
+	margin-top: 15px;
+	margin-left: 27px;
+	padding: 6px 10px;
+    width: 870px;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    position: relative;
+ }
+.input i{
+	position: absolute;
+	right: 120px;
+	top: 165px;
+}
+.input1 p{
+	font-weight: bold;
+	float: left;
+	margin-left: -60px;
+	margin-top: 22px;
+}
+.input1 input{
+	margin-top: 15px;
+	margin-left: 27px;
+	padding: 6px 10px;
+    width: 180px;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    position: relative;
+ }
+.input1 i{
+	position: absolute;
+	right: 760px;
+	top: 208px;
+}
+.input2 p{
+	font-weight: bold;
+	float: left;
+	margin-left: 208px;
+	margin-top: 22px;
+}
+.input2 input{
+	margin-top: 15px;
+	margin-left: 22px;
+	padding: 6px 10px;
+    width: 870px;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    position: relative;
+ }
+ .input2 p:after{
+	content: "(*)";
+	color: red;
+}
+.input3 p{
+	font-weight: bold;
+	float: left;
+	margin-left: -105px;
+	margin-top: 22px;
+}
+.input3 input{
+	margin-top: 15px;
+	margin-left: 22px;
+	padding: 6px 10px;
+    width: 830px;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    position: relative;
+ }
+.input3 i{
+	position: absolute;
+	right: 160px;
+	top: 295px;
+}
+.plus{
+	border-right: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8; 
+	border-top:1px solid #D8D8D8 ;
+	width: 38px;
+	height: 27px;
+	float: right;
+	margin-right: 59px;
+	margin-top: 15px;
+}
+.plus i{
+	position: absolute;
+	right: 120px;
+	top: 298px;
+}
+.input4 p{
+	font-weight: bold;
+	float: left;
+	margin-left: 230px;
+	margin-top: 22px;
+}
+.input4 input{
+	margin-top: 15px;
+	margin-left: 28px;
+	padding: 6px 10px;
+    width: 230px;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    position: relative;
+ }
+.sao:after{
+	content: "(*)";
+	color: red;
+}
+.donvi{
+	border-right: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8; 
+	border-top:1px solid #D8D8D8 ;
+	width: 38px;
+	height: 27px;
+	float: right;
+	margin-right: 657px;
+	margin-top: -29px;
+	background-color: #F2F2F2;
+	display: inline-block;
+}
+.donvi p{
+	text-align: center;
+	margin-top: 6px;
+	font-weight: bold;
+}
+.check p{
+	font-weight: bold;
+	float: left;
+	margin-left: -180px;
+	margin-top: 22px;
+}
+.cbox{
+	width: 20px;
+	height: 20px;
+	outline: 1px solid #D8D8D8;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.footer{
+	width: 1280px;
+	height: 100px;
+	margin-left: 30px;
+	border: 2px solid #D8D8D8;
+	margin-top: 20px;
+}
+.foot{
+	background-color: #F2F2F2 ;
+	height: 35px;
+	width: 100%;
+	margin-top: -17px;
+	line-height: 35px;
+	font-weight: bold;
+	border-bottom: 1px solid #D8D8D8;
+}
+.foot p{
+	margin-left: 30px;
+}
+.add{
+	height: 27px;
+	font-weight: bold;
+	color: white;
+	background-color: #01A9DB;
+	border: 1px solid #01A9DB;
+	border-radius: 2px;
+	margin-left: 1160px;
+	margin-top: 20px;
+}
