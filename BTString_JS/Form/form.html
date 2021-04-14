@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<div class="container">
+	<div class="header">
+			<h1>Liên hệ với chúng tôi</h1>
+		</div>
+		<div class="body">
+			<form name="lienhe" action="#" method="POST" target="_blank" id="myForm">
+				<div class="input">      
+                        <p>Họ và tên</p>
+                        <small>Vui lòng nhập tên của bạn</small>
+                        <input id="name" type="text" name="hoten" placeholder="Nhập tên" required>
+                    </div>
+                    <div class="input">
+                        <p>Email</p>
+                        <small>Vui lòng nhập email</small>
+                        <input  id="email" type="text" name="email" placeholder="Nhập email">    
+                    </div>   
+                    <div class="input">
+                        <p>Tiêu đề</p>
+                        <small>Vui lòng nhập tiêu đề</small>
+                        <input id="tieude" type="text" name="tieude" placeholder="Nhập tiêu đề">
+                    </div>   
+                    <div class="input1">
+                        <p>Nội dung</p>
+                        <small>Vui lòng nhập nội dung</small>
+                        <textarea  id="noidung" placeholder="Nhập nội dung" name="content" required></textarea>
+                    </div>
+                    <button name="submit" class="bt" type="submit" onclick="xacthuc()">Gửi</button>
+			</form>
+		</div>
+		<script type="text/javascript" src="form.js"></script>
+</body>
+</html>
