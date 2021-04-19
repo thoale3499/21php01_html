@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form tính tiền điện</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="form.css">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>FORM TÍNH TIỀN ĐIỆN</h2>
+		</div>
+		<div class="body">
+			<form name="myForm" action="#" method="POST" target="_blank">
+				<div class="input">      
+                        <p>Họ tên khách hàng</p>
+                        <p class ="error" id="errorName"></p>
+                        <input id="name" type="text" name="username" placeholder="Nhập họ tên" >
+                    </div>
+                    <div class="input">
+                        <p>Số đầu kỳ</p>
+                        <p class ="error" id="errorFistnum"></p>
+                        <input id="fistnumber" type="text" name="firstnumber" placeholder="Nhập số đầu kỳ">    
+                    </div>   
+                    <div class="input">
+                        <p>Số cuối kỳ</p>
+                        <p class ="error" id="errorLastnum"></p>
+                        <input id="lastnumber" type="text" name="lastnumber" placeholder="Nhập số cuối kỳ">
+                    </div>   
+                    <div class="input1">
+                        <p id="gender">Giới tính</p>
+                        <div class="bt_radio">
+                        	<p class ="error" id="errorGender"></p>
+                            <input id="male" type="radio" value="Nam" name="male">
+                            <label for="male">Nam</label>
+                            <input id="female" type="radio" value="Nu" name="female">
+                            <label for="female">Nữ</label>
+                        </div>
+                    </div>
+                    <div class="input">
+                    	<p>Ngày sinh</p>
+                    	<input id="dateOfBirth" type="date" name="trip-start" value="2021-01-01">
+                    </div>
+                    <div class="input">
+                    	<p>Ngày đầu kỳ</p>
+                    	<input id="firstdate" type="date" name="trip-start" value="2021-01-01">
+                    </div>
+                    <div class="input">
+                    	<p>Ngày cuối kỳ</p>
+                    	<input id="lastdate" type="date" name="trip-start" value="2021-01-01">
+                    </div>
+
+                    <div class="footer">
+						<button class="bt1" type="button" onclick="validate()">Gửi</button>
+					</div>
+                </form>
+	</div>
+</div>
+	<script src="form.js"></script>
+</body>
+</html>
