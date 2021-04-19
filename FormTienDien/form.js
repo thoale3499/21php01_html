@@ -51,7 +51,9 @@ function validate() {
 }
 function checkValidate2(){
 	var firstNum = document.getElementById("fistnumber").value;
+	firstNum = parseInt(firstNum);
     var lastNum = document.getElementById("lastnumber").value;
+    lastNum = parseInt(lastNum);
     var firstDate = document.getElementById("firstdate").value;
     var lastDate = document.getElementById("lastdate").value;
     if (firstNum <= 0) {
